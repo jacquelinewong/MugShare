@@ -20,6 +20,24 @@ namespace MugShareWebApp.Controllers
             return View();
         }
 
+        public ActionResult Machines()
+        {
+            ViewBag.Message = "Your machine information page.";
+            return View();
+        }
+
+        public ActionResult ManageUsers()
+        {
+            ViewBag.Message = "Your managing mug share users page.";
+            return View();
+        }
+
+        public ActionResult Security()
+        {
+            ViewBag.Message = "Your managing staff and admin users page.";
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
